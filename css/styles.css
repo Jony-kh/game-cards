@@ -1,0 +1,258 @@
+.container {
+    width: 1263px;
+    padding: 0;
+}
+
+.menu {
+    width: 100%;
+    height: 64px;
+    background-color: #2196F3;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 80px;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+.logo1 {
+    font-family: Roboto;
+font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 1.25px;
+text-align: center;
+color: white;
+
+}
+
+.logo2 {
+    font-family: Roboto;
+font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 1.25px;
+text-align: center;
+color: #2196F3;
+background-color: white;
+}
+
+.bar {
+    margin-left: 152px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about {
+    width: 96px;
+    height: 64px;
+}
+.about a {
+    text-decoration: none;
+}
+.logo-about {
+    margin-left: 38px;
+    margin-top: 11px;
+}
+
+.text-about {
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.4000000059604645px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 9px;
+}
+
+.about:hover {
+    background-color:  #1E88E5;
+
+}
+
+.best-score {
+    width: 96px;
+    height: 64px;
+}
+.best-score a {
+    text-decoration: none;
+}
+.logo-star {
+    margin-top: 11px;
+    width: 20px;
+    height: 20px;
+    margin-left: 38px;
+}
+.best-score:hover {
+    background-color:  #1E88E5;
+}
+
+.register-button {
+    margin-left: auto;
+    margin-right: 20px;
+    background-color: white;
+    width: 207px;
+    height: 36px;
+    margin-top: 13px;
+    padding-top: 8px;
+}
+
+.register-button a {
+    text-decoration: none;
+    color: #2196F3;
+    margin-left: 16px;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 1.25px;
+text-align: center;
+height: 36px;;
+
+}
+.content {
+    background-image: url(/images/wallpaper.png);
+    background-size: cover;
+    width: 1263px;
+    height: 1002px;
+    background-repeat: no-repeat;
+}
+.inner-content {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 33px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.how {
+    color: black;
+    padding-top: 28px;
+    margin-left: 36px;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+
+}
+
+.all_cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+.register_card {
+    width: 360px;
+    height: 230px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 36px;
+    display: flex;
+    flex-direction: row;
+}
+
+.number {
+    height: 41px;
+width: 40px;
+left: 16px;
+top: 16px;
+border-radius: nullpx;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 21px;
+text-align: center;
+color: white;
+background-color: #2196F3;
+border-radius: 50%;
+padding-top: 7.5px;
+margin-left: 16px;
+margin-top: 16px;
+}
+
+.text-cards {
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.25px;
+text-align: left;
+margin-left: 16px;
+margin-top: 16px;
+
+}
+.text-cards:last-child {
+    width: 272px;
+}
+
+.configure_card {
+    width: 360px;
+    height: 132px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 16px;
+    margin-left: 36px;
+}
+
+.start_card {
+    width: 360px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 21px;
+    margin-left: 36px;
+}
+.card_rightside {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+.register-new-pl {
+    margin-top: 20px;
+    margin-left: 28px;
+    
+}
+
+.game-settings {
+    background-color: #2196F3;
+    width: 116px;
+    height: 73px;
+    text-align: center;
+    margin-left: 214px;
+    margin-top: 28px;
+}
+
+.image-set {
+    margin-top: 15px;
+}
+
+.text-set {
+    color: white;
+}
+
+.cards-example {
+    margin-top: 80px;
+
+}
+
+.registration-main {
+    color: red;
+}
