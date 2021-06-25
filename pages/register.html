@@ -14,10 +14,14 @@
 <body>
     <div class="container">
         <div class="content">
-            <form method="POST">
-                <div>Nickname: <input type="text" name="name" id="signup-name" required></div>
-                <button class="btn submit" value="Start Game!"><a href="/pages/game.html">Start Game!</a></button>
+            <form id="form" action="game.html" method="GET">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="name" name="fname" required><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="surname" name="lname" required><br><br>
+                <input  id="submit-btn" type="submit" value="Submit">
             </form>
+
         </div>
     </div>
 </body>

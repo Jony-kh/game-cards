@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="cssforpages/game_styles.css">
 </head>
 
-<body>
+<body onload="timer()" style="display: flex; flex-direction: column;" >
+    <div class="mm" style="margin-top: 50px; margin-left: 560px; font-size: 25px;">
+        Time: <span id="count">-1</span>
+    </div>
     <section class="memory-game">
         <div class="memory-card" data-framework="aurelia">
             <img class="front-face" src="/images/aurelia.svg" alt="Aurelia" />
@@ -64,7 +67,7 @@
             <img class="front-face" src="/images/react.svg" alt="React" />
             <img class="back-face" src="/images/js-badge.svg" alt="JS Badge" />
         </div>
-        <script src="index.js"></script>
+        <script src="/typescript/index.js"></script>
 </body>
 
 </html>

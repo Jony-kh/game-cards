@@ -63,3 +63,13 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+
+
+var counter = 0;
+
+function timer() {
+  counter++;
+  document.getElementById("count").innerHTML = counter;
+  setTimeout("timer()", 1000);
+}
